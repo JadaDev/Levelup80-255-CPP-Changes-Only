@@ -72,3 +72,5 @@ STRONG_MAX_LEVEL = 255,
 10. Recompile TrinityCore to apply the changes.
 
 With these changes, characters on your modified TrinityCore server will be able to level up from 80 to 255, based on your server configuration.
+
+# Note: To fully implement this level cap change, you may also need to add the appropriate database changes. If you're using JadaDev SQL, you can use the "Level80-255" SQL or the ARAC (All Ranks All Classes) version of "Level 80 - 255" SQL to enable this extended level range in your server's database. Be sure to apply the necessary database changes to match the code modifications made in TrinityCore.
